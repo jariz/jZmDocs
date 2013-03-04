@@ -1,21 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
 
-  <HelpKINode Title="aInt method" Url="html/M_ZombieAPI_RemoteObject_aInt.htm" />
   <HelpKINode Title="AllAccess enumeration member" Url="html/T_ZombieAPI_RemoteMemory_ProcessAccess.htm" />
-  <HelpKINode Title="aLong method" Url="html/M_ZombieAPI_RemoteObject_aLong.htm" />
   <HelpKINode Title="Angles property" Url="html/P_ZombieAPI_GameObjects_GEntity_Angles.htm" />
   <HelpKINode Title="Apply method" Url="html/M_ZombieAPI_PatternRecognition_Apply.htm" />
-  <HelpKINode Title="aShort method" Url="html/M_ZombieAPI_RemoteObject_aShort.htm" />
   <HelpKINode Title="Assists property" Url="html/P_ZombieAPI_GameObjects_Player_Stats__Assists.htm" />
-  <HelpKINode Title="aString method" Url="html/M_ZombieAPI_RemoteObject_aString.htm" />
   <HelpKINode Title="Author property" Url="html/P_ZombieAPI_jZmPlugin_Author.htm" />
-  <HelpKINode Title="aVec method" Url="html/M_ZombieAPI_RemoteObject_aVec.htm" />
   <HelpKINode Title="a_Health field" Url="html/F_ZombieAPI_GameObjects_GEntity_a_Health.htm" />
   <HelpKINode Title="a_ModelIndex field" Url="html/F_ZombieAPI_GameObjects_GEntity_a_ModelIndex.htm" />
-  <HelpKINode Title="BaseOffset field" Url="html/F_ZombieAPI_RemoteObject_BaseOffset.htm" />
   <HelpKINode Title="BaseProcess field" Url="html/F_ZombieAPI_ZombieAPI_BaseProcess.htm" />
   <HelpKINode Title="Boolean enumeration member" Url="html/T_ZombieAPI_DVarType.htm" />
+  <HelpKINode Title="Boolean property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Boolean.htm" />
   <HelpKINode Title="Bootstrap method" Url="html/M_ZombieAPI_ZombieAPI_Bootstrap.htm" />
   <HelpKINode Title="ClientNum property" Url="html/P_ZombieAPI_GameObjects_GEntity_ClientNum.htm" />
   <HelpKINode Title="ClientNum property" Url="html/P_ZombieAPI_GameObjects_Player_ClientNum.htm" />
@@ -29,9 +24,43 @@
   <HelpKINode Title="Deaths property" Url="html/P_ZombieAPI_GameObjects_Player_Stats__Deaths.htm" />
   <HelpKINode Title="Debug property" Url="html/P_ZombieAPI_RemoteMemory_Debug.htm" />
   <HelpKINode Title="Delete enumeration member" Url="html/T_ZombieAPI_RemoteMemory_ProcessAccess.htm" />
+  <HelpKINode Title="Desc property" Url="html/P_ZombieAPI_GameObjects_DVar_Desc.htm" />
   <HelpKINode Title="Desc property" Url="html/P_ZombieAPI_jZmPlugin_Desc.htm" />
   <HelpKINode Title="Downs property" Url="html/P_ZombieAPI_GameObjects_Player_Stats__Downs.htm" />
   <HelpKINode Title="DupHandle enumeration member" Url="html/T_ZombieAPI_RemoteMemory_ProcessAccess.htm" />
+  <HelpKINode Title="DVar class" Url="html/AllMembers_T_ZombieAPI_GameObjects_DVar.htm" />
+  <HelpKINode Title="DVar class" Url="html/T_ZombieAPI_GameObjects_DVar.htm" />
+  <HelpKINode Title="DVar class">
+    <HelpKINode Title="about DVar class" Url="html/T_ZombieAPI_GameObjects_DVar.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ZombieAPI_GameObjects_DVar.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ZombieAPI_GameObjects_DVar__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_ZombieAPI_GameObjects_DVar.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ZombieAPI_GameObjects_DVar.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ZombieAPI_GameObjects_DVar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DVar.Desc property" Url="html/P_ZombieAPI_GameObjects_DVar_Desc.htm" />
+  <HelpKINode Title="DVar.DVar constructor" Url="html/M_ZombieAPI_GameObjects_DVar__ctor.htm" />
+  <HelpKINode Title="DVar.DVarValue class" Url="html/AllMembers_T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
+  <HelpKINode Title="DVar.DVarValue class" Url="html/T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
+  <HelpKINode Title="DVar.DVarValue class">
+    <HelpKINode Title="about DVar.DVarValue class" Url="html/T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ZombieAPI_GameObjects_DVar_DVarValue__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DVar.DVarValue.Boolean property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Boolean.htm" />
+  <HelpKINode Title="DVar.DVarValue.DVarValue constructor" Url="html/M_ZombieAPI_GameObjects_DVar_DVarValue__ctor.htm" />
+  <HelpKINode Title="DVar.DVarValue.Float property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Float.htm" />
+  <HelpKINode Title="DVar.DVarValue.Int property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Int.htm" />
+  <HelpKINode Title="DVar.DVarValue.String property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_String.htm" />
+  <HelpKINode Title="DVar.DVarValue.UnsignedInt property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_UnsignedInt.htm" />
+  <HelpKINode Title="DVar.DVarValue.Value property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Value.htm" />
+  <HelpKINode Title="DVar.DVarValue.Vector property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Vector.htm" />
+  <HelpKINode Title="DVar.Flag property" Url="html/P_ZombieAPI_GameObjects_DVar_Flag.htm" />
+  <HelpKINode Title="DVar.Name property" Url="html/P_ZombieAPI_GameObjects_DVar_Name.htm" />
+  <HelpKINode Title="DVar.Type property" Url="html/P_ZombieAPI_GameObjects_DVar_Type.htm" />
+  <HelpKINode Title="DVar.Value field" Url="html/F_ZombieAPI_GameObjects_DVar_Value.htm" />
   <HelpKINode Title="DVarFlag enumeration" Url="html/T_ZombieAPI_DVarFlag.htm" />
   <HelpKINode Title="DVarType enumeration" Url="html/T_ZombieAPI_DVarType.htm" />
   <HelpKINode Title="DVAR_FLAG_CHEAT enumeration member" Url="html/T_ZombieAPI_DVarFlag.htm" />
@@ -71,10 +100,10 @@
   <HelpKINode Title="ET_VEHICLE_CORPSE enumeration member" Url="html/T_ZombieAPI_EntityType.htm" />
   <HelpKINode Title="ET_ZBARRIER enumeration member" Url="html/T_ZombieAPI_EntityType.htm" />
   <HelpKINode Title="FasterKnife enumeration member" Url="html/T_ZombieAPI_Perks.htm" />
-  <HelpKINode Title="FindPattern method" Url="html/M_ZombieAPI_PatternRecognition_FindPattern.htm" />
   <HelpKINode Title="Firing enumeration member" Url="html/T_ZombieAPI_Stances.htm" />
-  <HelpKINode Title="Fix method" Url="html/M_ZombieAPI_PatternRecognition_Fix.htm" />
+  <HelpKINode Title="Flag property" Url="html/P_ZombieAPI_GameObjects_DVar_Flag.htm" />
   <HelpKINode Title="Float enumeration member" Url="html/T_ZombieAPI_DVarType.htm" />
+  <HelpKINode Title="Float property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Float.htm" />
   <HelpKINode Title="Freeze property" Url="html/P_ZombieAPI_GameObjects_Player_World__Freeze.htm" />
   <HelpKINode Title="GEntity class" Url="html/AllMembers_T_ZombieAPI_GameObjects_GEntity.htm" />
   <HelpKINode Title="GEntity class" Url="html/T_ZombieAPI_GameObjects_GEntity.htm" />
@@ -104,6 +133,8 @@
   <HelpKINode Title="GetActors method" Url="html/M_ZombieAPI_ZombieAPI_GetActors.htm" />
   <HelpKINode Title="GetBarriers method" Url="html/M_ZombieAPI_ZombieAPI_GetBarriers.htm" />
   <HelpKINode Title="GetBus method" Url="html/M_ZombieAPI_ZombieAPI_GetBus.htm" />
+  <HelpKINode Title="GetDVar method" Url="html/M_ZombieAPI_ZombieAPI_GetDVar.htm" />
+  <HelpKINode Title="GetDVarValue method" Url="html/M_ZombieAPI_ZombieAPI_GetDVarValue.htm" />
   <HelpKINode Title="GetPlayers method" Url="html/M_ZombieAPI_ZombieAPI_GetPlayers.htm" />
   <HelpKINode Title="GetScriptMovers method" Url="html/M_ZombieAPI_ZombieAPI_GetScriptMovers.htm" />
   <HelpKINode Title="Gravity property" Url="html/P_ZombieAPI_GameObjects_Player_World__Gravity.htm" />
@@ -112,8 +143,8 @@
   <HelpKINode Title="Health property" Url="html/P_ZombieAPI_GameObjects_GEntity_Health.htm" />
   <HelpKINode Title="Health property" Url="html/P_ZombieAPI_GameObjects_Player_Health.htm" />
   <HelpKINode Title="Ignite method" Url="html/M_ZombieAPI_GameObjects_Player_Ignite.htm" />
-  <HelpKINode Title="imove method" Url="html/M_ZombieAPI_RemoteObject_imove.htm" />
   <HelpKINode Title="Init method" Url="html/M_ZombieAPI_jZmPlugin_Init.htm" />
+  <HelpKINode Title="Int property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Int.htm" />
   <HelpKINode Title="Integer enumeration member" Url="html/T_ZombieAPI_DVarType.htm" />
   <HelpKINode Title="iPrintBoldLn method" Url="html/M_ZombieAPI_GameObjects_Player_iPrintBoldLn.htm" />
   <HelpKINode Title="iPrintLn method" Url="html/M_ZombieAPI_GameObjects_Player_iPrintLn.htm" />
@@ -137,17 +168,14 @@
   <HelpKINode Title="LethalWeapon property" Url="html/P_ZombieAPI_GameObjects_Player_Weapons__LethalWeapon.htm" />
   <HelpKINode Title="MapHandler delegate" Url="html/T_ZombieAPI_MapHandler.htm" />
   <HelpKINode Title="MaxHealth property" Url="html/P_ZombieAPI_GameObjects_Player_MaxHealth.htm" />
-  <HelpKINode Title="Mem field" Url="html/F_ZombieAPI_RemoteObject_Mem.htm" />
   <HelpKINode Title="ModelIndex property" Url="html/P_ZombieAPI_GameObjects_GEntity_ModelIndex.htm" />
   <HelpKINode Title="ModelIndex property" Url="html/P_ZombieAPI_GameObjects_Player_ModelIndex.htm" />
   <HelpKINode Title="Money property" Url="html/P_ZombieAPI_GameObjects_Player_Money.htm" />
   <HelpKINode Title="Move method" Url="html/M_ZombieAPI_RemoteMemory_Move.htm" />
-  <HelpKINode Title="Move method" Url="html/M_ZombieAPI_RemoteObject_Move.htm" />
-  <HelpKINode Title="MovePlayerCamera method" Url="html/M_ZombieAPI_GameObjects_Player_MovePlayerCamera.htm" />
+  <HelpKINode Title="Name property" Url="html/P_ZombieAPI_GameObjects_DVar_Name.htm" />
   <HelpKINode Title="Name property" Url="html/P_ZombieAPI_GameObjects_Player_Name.htm" />
   <HelpKINode Title="Name property" Url="html/P_ZombieAPI_jZmPlugin_Name.htm" />
   <HelpKINode Title="newOrigin property" Url="html/P_ZombieAPI_GameObjects_GEntity_newOrigin.htm" />
-  <HelpKINode Title="Offset field" Url="html/F_ZombieAPI_RemoteObject_Offset.htm" />
   <HelpKINode Title="OnCrash event" Url="html/E_ZombieAPI_ZombieAPI_OnCrash.htm" />
   <HelpKINode Title="OnCrashHandler delegate" Url="html/T_ZombieAPI_OnCrashHandler.htm" />
   <HelpKINode Title="OnDebugWrite event" Url="html/E_ZombieAPI_ZombieAPI_OnDebugWrite.htm" />
@@ -181,8 +209,6 @@
     <HelpKINode Title="methods" Url="html/Methods_T_ZombieAPI_PatternRecognition.htm" />
   </HelpKINode>
   <HelpKINode Title="PatternRecognition.Apply method" Url="html/M_ZombieAPI_PatternRecognition_Apply.htm" />
-  <HelpKINode Title="PatternRecognition.FindPattern method" Url="html/M_ZombieAPI_PatternRecognition_FindPattern.htm" />
-  <HelpKINode Title="PatternRecognition.Fix method" Url="html/M_ZombieAPI_PatternRecognition_Fix.htm" />
   <HelpKINode Title="PatternRecognition.PatternRecognition constructor" Url="html/M_ZombieAPI_PatternRecognition__ctor.htm" />
   <HelpKINode Title="PatternRecognition.Run method" Url="html/M_ZombieAPI_PatternRecognition_Run.htm" />
   <HelpKINode Title="Perks enumeration" Url="html/T_ZombieAPI_Perks.htm" />
@@ -209,7 +235,6 @@
   <HelpKINode Title="Player.MaxHealth property" Url="html/P_ZombieAPI_GameObjects_Player_MaxHealth.htm" />
   <HelpKINode Title="Player.ModelIndex property" Url="html/P_ZombieAPI_GameObjects_Player_ModelIndex.htm" />
   <HelpKINode Title="Player.Money property" Url="html/P_ZombieAPI_GameObjects_Player_Money.htm" />
-  <HelpKINode Title="Player.MovePlayerCamera method" Url="html/M_ZombieAPI_GameObjects_Player_MovePlayerCamera.htm" />
   <HelpKINode Title="Player.Name property" Url="html/P_ZombieAPI_GameObjects_Player_Name.htm" />
   <HelpKINode Title="Player.Player constructor" Url="html/M_ZombieAPI_GameObjects_Player__ctor.htm" />
   <HelpKINode Title="Player.SetClientDVar method" Url="html/M_ZombieAPI_GameObjects_Player_SetClientDVar.htm" />
@@ -271,7 +296,6 @@
   <HelpKINode Title="Player.World_.Gravity property" Url="html/P_ZombieAPI_GameObjects_Player_World__Gravity.htm" />
   <HelpKINode Title="Player.World_.Origin property" Url="html/P_ZombieAPI_GameObjects_Player_World__Origin.htm" />
   <HelpKINode Title="Player.World_.PlayerHeight property" Url="html/P_ZombieAPI_GameObjects_Player_World__PlayerHeight.htm" />
-  <HelpKINode Title="Player.World_.RemoveMe_CLIPPING_debug property" Url="html/P_ZombieAPI_GameObjects_Player_World__RemoveMe_CLIPPING_debug.htm" />
   <HelpKINode Title="Player.World_.Speed property" Url="html/P_ZombieAPI_GameObjects_Player_World__Speed.htm" />
   <HelpKINode Title="Player.World_.Velocity property" Url="html/P_ZombieAPI_GameObjects_Player_World__Velocity.htm" />
   <HelpKINode Title="Player.World_.ViewAngles property" Url="html/P_ZombieAPI_GameObjects_Player_World__ViewAngles.htm" />
@@ -279,7 +303,6 @@
   <HelpKINode Title="Player.XUID property" Url="html/P_ZombieAPI_GameObjects_Player_XUID.htm" />
   <HelpKINode Title="PlayerHeight property" Url="html/P_ZombieAPI_GameObjects_Player_World__PlayerHeight.htm" />
   <HelpKINode Title="Plugins field" Url="html/F_ZombieAPI_ZombieAPI_Plugins.htm" />
-  <HelpKINode Title="Position field" Url="html/F_ZombieAPI_RemoteObject_Position.htm" />
   <HelpKINode Title="Position property" Url="html/P_ZombieAPI_RemoteMemory_Position.htm" />
   <HelpKINode Title="Prestige property" Url="html/P_ZombieAPI_GameObjects_Player_Stats__Prestige.htm" />
   <HelpKINode Title="PrimaryAmmoClip property" Url="html/P_ZombieAPI_GameObjects_Player_Weapons__PrimaryAmmoClip.htm" />
@@ -309,7 +332,6 @@
     <HelpKINode Title="about RemoteMemory class" Url="html/T_ZombieAPI_RemoteMemory.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_ZombieAPI_RemoteMemory.htm" />
     <HelpKINode Title="constructor" Url="html/M_ZombieAPI_RemoteMemory__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_ZombieAPI_RemoteMemory.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ZombieAPI_RemoteMemory.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ZombieAPI_RemoteMemory.htm" />
   </HelpKINode>
@@ -340,24 +362,11 @@
     <HelpKINode Title="about RemoteObject class" Url="html/T_ZombieAPI_RemoteObject.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_ZombieAPI_RemoteObject.htm" />
     <HelpKINode Title="constructor" Url="html/M_ZombieAPI_RemoteObject__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_ZombieAPI_RemoteObject.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ZombieAPI_RemoteObject.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ZombieAPI_RemoteObject.htm" />
   </HelpKINode>
-  <HelpKINode Title="RemoteObject.aInt method" Url="html/M_ZombieAPI_RemoteObject_aInt.htm" />
-  <HelpKINode Title="RemoteObject.aLong method" Url="html/M_ZombieAPI_RemoteObject_aLong.htm" />
-  <HelpKINode Title="RemoteObject.aShort method" Url="html/M_ZombieAPI_RemoteObject_aShort.htm" />
-  <HelpKINode Title="RemoteObject.aString method" Url="html/M_ZombieAPI_RemoteObject_aString.htm" />
-  <HelpKINode Title="RemoteObject.aVec method" Url="html/M_ZombieAPI_RemoteObject_aVec.htm" />
-  <HelpKINode Title="RemoteObject.BaseOffset field" Url="html/F_ZombieAPI_RemoteObject_BaseOffset.htm" />
-  <HelpKINode Title="RemoteObject.imove method" Url="html/M_ZombieAPI_RemoteObject_imove.htm" />
-  <HelpKINode Title="RemoteObject.Mem field" Url="html/F_ZombieAPI_RemoteObject_Mem.htm" />
-  <HelpKINode Title="RemoteObject.Move method" Url="html/M_ZombieAPI_RemoteObject_Move.htm" />
-  <HelpKINode Title="RemoteObject.Offset field" Url="html/F_ZombieAPI_RemoteObject_Offset.htm" />
-  <HelpKINode Title="RemoteObject.Position field" Url="html/F_ZombieAPI_RemoteObject_Position.htm" />
   <HelpKINode Title="RemoteObject.RemoteObject constructor" Url="html/M_ZombieAPI_RemoteObject__ctor.htm" />
   <HelpKINode Title="RemoteObject.State property" Url="html/P_ZombieAPI_RemoteObject_State.htm" />
-  <HelpKINode Title="RemoveMe_CLIPPING_debug property" Url="html/P_ZombieAPI_GameObjects_Player_World__RemoveMe_CLIPPING_debug.htm" />
   <HelpKINode Title="Revives property" Url="html/P_ZombieAPI_GameObjects_Player_Stats__Revives.htm" />
   <HelpKINode Title="Run method" Url="html/M_ZombieAPI_PatternRecognition_Run.htm" />
   <HelpKINode Title="Running enumeration member" Url="html/T_ZombieAPI_Stances.htm" />
@@ -377,6 +386,7 @@
   <HelpKINode Title="State property" Url="html/P_ZombieAPI_RemoteObject_State.htm" />
   <HelpKINode Title="Stats field" Url="html/F_ZombieAPI_GameObjects_Player_Stats.htm" />
   <HelpKINode Title="String enumeration member" Url="html/T_ZombieAPI_DVarType.htm" />
+  <HelpKINode Title="String property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_String.htm" />
   <HelpKINode Title="SuspendResume enumeration member" Url="html/T_ZombieAPI_RemoteMemory_ProcessAccess.htm" />
   <HelpKINode Title="Synchronize enumeration member" Url="html/T_ZombieAPI_RemoteMemory_ProcessAccess.htm" />
   <HelpKINode Title="TacticalAmmo property" Url="html/P_ZombieAPI_GameObjects_Player_Weapons__TacticalAmmo.htm" />
@@ -391,7 +401,6 @@
     <HelpKINode Title="about TeamInfo class" Url="html/T_ZombieAPI_GameObjects_TeamInfo.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_ZombieAPI_GameObjects_TeamInfo.htm" />
     <HelpKINode Title="constructor" Url="html/M_ZombieAPI_GameObjects_TeamInfo__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_ZombieAPI_GameObjects_TeamInfo.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ZombieAPI_GameObjects_TeamInfo.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ZombieAPI_GameObjects_TeamInfo.htm" />
   </HelpKINode>
@@ -408,9 +417,14 @@
   <HelpKINode Title="TEAM_SPECTATOR enumeration member" Url="html/T_ZombieAPI_Team.htm" />
   <HelpKINode Title="TEAM_THREE enumeration member" Url="html/T_ZombieAPI_Team.htm" />
   <HelpKINode Title="Tell method" Url="html/M_ZombieAPI_GameObjects_Player_Tell.htm" />
+  <HelpKINode Title="Type property" Url="html/P_ZombieAPI_GameObjects_DVar_Type.htm" />
   <HelpKINode Title="Type property" Url="html/P_ZombieAPI_GameObjects_GEntity_Type.htm" />
+  <HelpKINode Title="UnsignedInt property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_UnsignedInt.htm" />
   <HelpKINode Title="UnsignedInteger enumeration member" Url="html/T_ZombieAPI_DVarType.htm" />
+  <HelpKINode Title="Value field" Url="html/F_ZombieAPI_GameObjects_DVar_Value.htm" />
+  <HelpKINode Title="Value property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Value.htm" />
   <HelpKINode Title="Vector enumeration member" Url="html/T_ZombieAPI_DVarType.htm" />
+  <HelpKINode Title="Vector property" Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Vector.htm" />
   <HelpKINode Title="Velocity property" Url="html/P_ZombieAPI_GameObjects_Player_World__Velocity.htm" />
   <HelpKINode Title="Version field" Url="html/F_ZombieAPI_ZombieAPI_Version.htm" />
   <HelpKINode Title="ViewAngles property" Url="html/P_ZombieAPI_GameObjects_Player_World__ViewAngles.htm" />
@@ -448,6 +462,10 @@
   <HelpKINode Title="ZombieAPI.Entities property" Url="html/P_ZombieAPI_ZombieAPI_Entities.htm" />
   <HelpKINode Title="ZombieAPI.EntityType enumeration" Url="html/T_ZombieAPI_EntityType.htm" />
   <HelpKINode Title="ZombieAPI.GameObjects namespace" Url="html/N_ZombieAPI_GameObjects.htm" />
+  <HelpKINode Title="ZombieAPI.GameObjects.DVar class" Url="html/AllMembers_T_ZombieAPI_GameObjects_DVar.htm" />
+  <HelpKINode Title="ZombieAPI.GameObjects.DVar class" Url="html/T_ZombieAPI_GameObjects_DVar.htm" />
+  <HelpKINode Title="ZombieAPI.GameObjects.DVar.DVarValue class" Url="html/AllMembers_T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
+  <HelpKINode Title="ZombieAPI.GameObjects.DVar.DVarValue class" Url="html/T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
   <HelpKINode Title="ZombieAPI.GameObjects.GEntity class" Url="html/AllMembers_T_ZombieAPI_GameObjects_GEntity.htm" />
   <HelpKINode Title="ZombieAPI.GameObjects.GEntity class" Url="html/T_ZombieAPI_GameObjects_GEntity.htm" />
   <HelpKINode Title="ZombieAPI.GameObjects.Player class" Url="html/AllMembers_T_ZombieAPI_GameObjects_Player.htm" />
@@ -463,6 +481,8 @@
   <HelpKINode Title="ZombieAPI.GetActors method" Url="html/M_ZombieAPI_ZombieAPI_GetActors.htm" />
   <HelpKINode Title="ZombieAPI.GetBarriers method" Url="html/M_ZombieAPI_ZombieAPI_GetBarriers.htm" />
   <HelpKINode Title="ZombieAPI.GetBus method" Url="html/M_ZombieAPI_ZombieAPI_GetBus.htm" />
+  <HelpKINode Title="ZombieAPI.GetDVar method" Url="html/M_ZombieAPI_ZombieAPI_GetDVar.htm" />
+  <HelpKINode Title="ZombieAPI.GetDVarValue method" Url="html/M_ZombieAPI_ZombieAPI_GetDVarValue.htm" />
   <HelpKINode Title="ZombieAPI.GetPlayers method" Url="html/M_ZombieAPI_ZombieAPI_GetPlayers.htm" />
   <HelpKINode Title="ZombieAPI.GetScriptMovers method" Url="html/M_ZombieAPI_ZombieAPI_GetScriptMovers.htm" />
   <HelpKINode Title="ZombieAPI.Header property" Url="html/P_ZombieAPI_ZombieAPI_Header.htm" />
