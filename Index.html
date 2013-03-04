@@ -1,0 +1,846 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>jZm - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 100px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+    src="CloseSearch.png" height="16" width="16" alt="Hide search" style="float: right;"/>
+Keyword(s) for which to search:
+<input id="txtSearchText" type="text" style="width: 100%;"
+  onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label><br />
+<input type="button" value="Search" onclick="javascript: return PerformSearch();" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 25px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+    src="CloseSearch.png" height="17" width="17" alt="Hide index" style="float: right;"/>
+Keyword Index
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 20px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.gif"
+        height="16" width="16" alt="Sync to TOC"/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.bmp" height="16" width="16" alt="Expand all "/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.bmp" height="16" width="16" alt="Collapse all" />
+    <a href="#" title="Click to obtain a direct link to the displayed topic"
+        style="margin-left: 10px; vertical-align: top;"
+        onclick="javascript: ShowDirectLink();">Direct Link</a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ZombieAPI.htm" target="TopicContent">ZombieAPI Namespace</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_DVarFlag.htm" target="TopicContent">DVarFlag Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_DVarType.htm" target="TopicContent">DVarType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_EntityType.htm" target="TopicContent">EntityType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_jZmPlugin.htm" target="TopicContent">jZmPlugin Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_jZmPlugin.htm" target="TopicContent">jZmPlugin Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ZombieAPI_jZmPlugin.htm" target="TopicContent">jZmPlugin Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_jZmPlugin_Init.htm" target="TopicContent">Init Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_jZmPlugin.htm" target="TopicContent">jZmPlugin Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_jZmPlugin_Author.htm" target="TopicContent">Author Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_jZmPlugin_Desc.htm" target="TopicContent">Desc Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_jZmPlugin_Name.htm" target="TopicContent">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_MapHandler.htm" target="TopicContent">MapHandler Delegate</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_OnCrashHandler.htm" target="TopicContent">OnCrashHandler Delegate</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_OnFrameHandler.htm" target="TopicContent">OnFrameHandler Delegate</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_OnPluginCrashHandler.htm" target="TopicContent">OnPluginCrashHandler Delegate</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_PatternRecognition.htm" target="TopicContent">PatternRecognition Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_PatternRecognition.htm" target="TopicContent">PatternRecognition Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_PatternRecognition__ctor.htm" target="TopicContent">PatternRecognition Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ZombieAPI_PatternRecognition.htm" target="TopicContent">PatternRecognition Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_PatternRecognition_Apply.htm" target="TopicContent">Apply Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_PatternRecognition_FindPattern.htm" target="TopicContent">FindPattern Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_PatternRecognition_Fix.htm" target="TopicContent">Fix Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_PatternRecognition_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_Perks.htm" target="TopicContent">Perks Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_RemoteMemory.htm" target="TopicContent">RemoteMemory Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_RemoteMemory.htm" target="TopicContent">RemoteMemory Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory__ctor.htm" target="TopicContent">RemoteMemory Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_ZombieAPI_RemoteMemory.htm" target="TopicContent">RemoteMemory Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ZombieAPI_RemoteMemory.htm" target="TopicContent">RemoteMemory Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Move.htm" target="TopicContent">Move Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadFloat.htm" target="TopicContent">ReadFloat Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadInt16.htm" target="TopicContent">ReadInt16 Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadInt32.htm" target="TopicContent">ReadInt32 Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadInt64.htm" target="TopicContent">ReadInt64 Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ZombieAPI_RemoteMemory_ReadString.htm" target="TopicContent">ReadString Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadString.htm" target="TopicContent">ReadString Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadString_1.htm" target="TopicContent">ReadString Method (Int32)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadStringSmart.htm" target="TopicContent">ReadStringSmart Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadUInt32.htm" target="TopicContent">ReadUInt32 Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadVec2.htm" target="TopicContent">ReadVec2 Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadVec3.htm" target="TopicContent">ReadVec3 Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_ReadVec4.htm" target="TopicContent">ReadVec4 Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ZombieAPI_RemoteMemory_Write.htm" target="TopicContent">Write Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write.htm" target="TopicContent">Write Method (Boolean)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_1.htm" target="TopicContent">Write Method (Char)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_2.htm" target="TopicContent">Write Method (Char[])</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_3.htm" target="TopicContent">Write Method (Decimal)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_4.htm" target="TopicContent">Write Method (Double)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_5.htm" target="TopicContent">Write Method (Int16)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_6.htm" target="TopicContent">Write Method (Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_7.htm" target="TopicContent">Write Method (Int64)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_8.htm" target="TopicContent">Write Method (Object)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_9.htm" target="TopicContent">Write Method (Single)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_10.htm" target="TopicContent">Write Method (Single[])</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_11.htm" target="TopicContent">Write Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_13.htm" target="TopicContent">Write Method (UInt32)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_14.htm" target="TopicContent">Write Method (UInt64)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_Write_12.htm" target="TopicContent">Write Method (String, Object, Object)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ZombieAPI_RemoteMemory_WriteLine.htm" target="TopicContent">WriteLine Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine.htm" target="TopicContent">WriteLine Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_1.htm" target="TopicContent">WriteLine Method (Boolean)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_2.htm" target="TopicContent">WriteLine Method (Char)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_3.htm" target="TopicContent">WriteLine Method (Char[])</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_4.htm" target="TopicContent">WriteLine Method (Decimal)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_5.htm" target="TopicContent">WriteLine Method (Double)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_6.htm" target="TopicContent">WriteLine Method (Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_7.htm" target="TopicContent">WriteLine Method (Int64)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_8.htm" target="TopicContent">WriteLine Method (Object)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_9.htm" target="TopicContent">WriteLine Method (Single)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_10.htm" target="TopicContent">WriteLine Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_14.htm" target="TopicContent">WriteLine Method (UInt32)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_15.htm" target="TopicContent">WriteLine Method (UInt64)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_13.htm" target="TopicContent">WriteLine Method (String, Object[])</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_11.htm" target="TopicContent">WriteLine Method (String, Object, Object)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteMemory_WriteLine_12.htm" target="TopicContent">WriteLine Method (String, Object, Object, Object)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_RemoteMemory.htm" target="TopicContent">RemoteMemory Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_RemoteMemory_Debug.htm" target="TopicContent">Debug Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_RemoteMemory_Encoding.htm" target="TopicContent">Encoding Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_RemoteMemory_Position.htm" target="TopicContent">Position Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_RemoteMemory_Process.htm" target="TopicContent">Process Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_RemoteMemory_ProcessHandle.htm" target="TopicContent">ProcessHandle Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_RemoteMemory_ProcessAccess.htm" target="TopicContent">RemoteMemory.ProcessAccess Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_RemoteMemory_Protection.htm" target="TopicContent">RemoteMemory.Protection Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_RemoteObject.htm" target="TopicContent">RemoteObject Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_RemoteObject.htm" target="TopicContent">RemoteObject Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteObject__ctor.htm" target="TopicContent">RemoteObject Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_ZombieAPI_RemoteObject.htm" target="TopicContent">RemoteObject Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_RemoteObject_BaseOffset.htm" target="TopicContent">BaseOffset Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_RemoteObject_Mem.htm" target="TopicContent">Mem Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_RemoteObject_Offset.htm" target="TopicContent">Offset Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_RemoteObject_Position.htm" target="TopicContent">Position Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ZombieAPI_RemoteObject.htm" target="TopicContent">RemoteObject Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteObject_aInt.htm" target="TopicContent">aInt Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteObject_aLong.htm" target="TopicContent">aLong Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteObject_aShort.htm" target="TopicContent">aShort Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteObject_aString.htm" target="TopicContent">aString Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteObject_aVec.htm" target="TopicContent">aVec Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteObject_imove.htm" target="TopicContent">imove Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_RemoteObject_Move.htm" target="TopicContent">Move Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_RemoteObject.htm" target="TopicContent">RemoteObject Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_RemoteObject_State.htm" target="TopicContent">State Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_Stances.htm" target="TopicContent">Stances Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_Team.htm" target="TopicContent">Team Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ZombieAPI_WriteHandler.htm" target="TopicContent">WriteHandler Delegate</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_ZombieAPI.htm" target="TopicContent">ZombieAPI Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_ZombieAPI.htm" target="TopicContent">ZombieAPI Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI__ctor.htm" target="TopicContent">ZombieAPI Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_ZombieAPI_ZombieAPI.htm" target="TopicContent">ZombieAPI Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_ZombieAPI_BaseProcess.htm" target="TopicContent">BaseProcess Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_ZombieAPI_Plugins.htm" target="TopicContent">Plugins Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_ZombieAPI_Version.htm" target="TopicContent">Version Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ZombieAPI_ZombieAPI.htm" target="TopicContent">ZombieAPI Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_Bootstrap.htm" target="TopicContent">Bootstrap Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_Crash.htm" target="TopicContent">Crash Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_GetActors.htm" target="TopicContent">GetActors Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_GetBarriers.htm" target="TopicContent">GetBarriers Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_GetBus.htm" target="TopicContent">GetBus Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_GetPlayers.htm" target="TopicContent">GetPlayers Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_GetScriptMovers.htm" target="TopicContent">GetScriptMovers Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_Write.htm" target="TopicContent">Write Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ZombieAPI_ZombieAPI_WriteLine.htm" target="TopicContent">WriteLine Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_WriteLine.htm" target="TopicContent">WriteLine Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_ZombieAPI_WriteLine_1.htm" target="TopicContent">WriteLine Method (String, Boolean)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_ZombieAPI.htm" target="TopicContent">ZombieAPI Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_ZombieAPI_Entities.htm" target="TopicContent">Entities Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_ZombieAPI_Header.htm" target="TopicContent">Header Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_ZombieAPI_Weapons.htm" target="TopicContent">Weapons Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_ZombieAPI_ZombieAPI.htm" target="TopicContent">ZombieAPI Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ZombieAPI_ZombieAPI_OnCrash.htm" target="TopicContent">OnCrash Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ZombieAPI_ZombieAPI_OnDebugWrite.htm" target="TopicContent">OnDebugWrite Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ZombieAPI_ZombieAPI_OnFrame.htm" target="TopicContent">OnFrame Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ZombieAPI_ZombieAPI_OnMapDestroy.htm" target="TopicContent">OnMapDestroy Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ZombieAPI_ZombieAPI_OnMapLoad.htm" target="TopicContent">OnMapLoad Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ZombieAPI_ZombieAPI_OnPluginCrash.htm" target="TopicContent">OnPluginCrash Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ZombieAPI_ZombieAPI_OnWrite.htm" target="TopicContent">OnWrite Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ZombieAPI_GameObjects.htm" target="TopicContent">ZombieAPI.GameObjects Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_GameObjects_GEntity.htm" target="TopicContent">GEntity Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_GameObjects_GEntity.htm" target="TopicContent">GEntity Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_GEntity__ctor.htm" target="TopicContent">GEntity Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_ZombieAPI_GameObjects_GEntity.htm" target="TopicContent">GEntity Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_GameObjects_GEntity_a_Health.htm" target="TopicContent">a_Health Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_GameObjects_GEntity_a_ModelIndex.htm" target="TopicContent">a_ModelIndex Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ZombieAPI_GameObjects_GEntity.htm" target="TopicContent">GEntity Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_GameObjects_GEntity.htm" target="TopicContent">GEntity Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_Angles.htm" target="TopicContent">Angles Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_ClientNum.htm" target="TopicContent">ClientNum Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_CurrentWeapon.htm" target="TopicContent">CurrentWeapon Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_Health.htm" target="TopicContent">Health Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_ModelIndex.htm" target="TopicContent">ModelIndex Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_newOrigin.htm" target="TopicContent">newOrigin Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_Origin.htm" target="TopicContent">Origin Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_Parent.htm" target="TopicContent">Parent Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_Player.htm" target="TopicContent">Player Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_Stance.htm" target="TopicContent">Stance Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_Team.htm" target="TopicContent">Team Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_GEntity_Type.htm" target="TopicContent">Type Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_GameObjects_Player.htm" target="TopicContent">Player Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_GameObjects_Player.htm" target="TopicContent">Player Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player__ctor.htm" target="TopicContent">Player Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_ZombieAPI_GameObjects_Player.htm" target="TopicContent">Player Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_GameObjects_Player_Stats.htm" target="TopicContent">Stats Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_GameObjects_Player_Weapons.htm" target="TopicContent">Weapons Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ZombieAPI_GameObjects_Player_World.htm" target="TopicContent">World Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ZombieAPI_GameObjects_Player.htm" target="TopicContent">Player Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_CustomSVCMD.htm" target="TopicContent">CustomSVCMD Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_Electrocute.htm" target="TopicContent">Electrocute Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_Ignite.htm" target="TopicContent">Ignite Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_iPrintBoldLn.htm" target="TopicContent">iPrintBoldLn Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_iPrintLn.htm" target="TopicContent">iPrintLn Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_Kick.htm" target="TopicContent">Kick Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_MovePlayerCamera.htm" target="TopicContent">MovePlayerCamera Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_SetClientDVar.htm" target="TopicContent">SetClientDVar Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_Tell.htm" target="TopicContent">Tell Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_GameObjects_Player.htm" target="TopicContent">Player Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_ClientNum.htm" target="TopicContent">ClientNum Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Health.htm" target="TopicContent">Health Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_isAlive.htm" target="TopicContent">isAlive Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_MaxHealth.htm" target="TopicContent">MaxHealth Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_ModelIndex.htm" target="TopicContent">ModelIndex Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Money.htm" target="TopicContent">Money Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Stance.htm" target="TopicContent">Stance Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Team.htm" target="TopicContent">Team Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_XUID.htm" target="TopicContent">XUID Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_GameObjects_Player_Stats_.htm" target="TopicContent">Player.Stats_ Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_GameObjects_Player_Stats_.htm" target="TopicContent">Player.Stats_ Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_Stats___ctor.htm" target="TopicContent">Player.Stats_ Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ZombieAPI_GameObjects_Player_Stats_.htm" target="TopicContent">Player.Stats_ Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_GameObjects_Player_Stats_.htm" target="TopicContent">Player.Stats_ Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Stats__Assists.htm" target="TopicContent">Assists Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Stats__Deaths.htm" target="TopicContent">Deaths Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Stats__Downs.htm" target="TopicContent">Downs Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Stats__Headshots.htm" target="TopicContent">Headshots Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Stats__Kills.htm" target="TopicContent">Kills Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Stats__Prestige.htm" target="TopicContent">Prestige Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Stats__Rank.htm" target="TopicContent">Rank Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Stats__Revives.htm" target="TopicContent">Revives Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_GameObjects_Player_Weapons_.htm" target="TopicContent">Player.Weapons_ Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_GameObjects_Player_Weapons_.htm" target="TopicContent">Player.Weapons_ Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_Weapons___ctor.htm" target="TopicContent">Player.Weapons_ Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ZombieAPI_GameObjects_Player_Weapons_.htm" target="TopicContent">Player.Weapons_ Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_GameObjects_Player_Weapons_.htm" target="TopicContent">Player.Weapons_ Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__CurrentWeapon.htm" target="TopicContent">CurrentWeapon Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__LethalAmmo.htm" target="TopicContent">LethalAmmo Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__LethalWeapon.htm" target="TopicContent">LethalWeapon Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__PrimaryAmmoClip.htm" target="TopicContent">PrimaryAmmoClip Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__PrimaryAmmoStock.htm" target="TopicContent">PrimaryAmmoStock Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__PrimaryWeapon.htm" target="TopicContent">PrimaryWeapon Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__SecondaryAmmoClip.htm" target="TopicContent">SecondaryAmmoClip Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__SecondaryAmmoStock.htm" target="TopicContent">SecondaryAmmoStock Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__SecondaryWeapon.htm" target="TopicContent">SecondaryWeapon Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__TacticalAmmo.htm" target="TopicContent">TacticalAmmo Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_Weapons__TacticalWeapon.htm" target="TopicContent">TacticalWeapon Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_GameObjects_Player_World_.htm" target="TopicContent">Player.World_ Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_GameObjects_Player_World_.htm" target="TopicContent">Player.World_ Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_Player_World___ctor.htm" target="TopicContent">Player.World_ Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ZombieAPI_GameObjects_Player_World_.htm" target="TopicContent">Player.World_ Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_GameObjects_Player_World_.htm" target="TopicContent">Player.World_ Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_World__Freeze.htm" target="TopicContent">Freeze Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_World__Gravity.htm" target="TopicContent">Gravity Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_World__Origin.htm" target="TopicContent">Origin Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_World__PlayerHeight.htm" target="TopicContent">PlayerHeight Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_World__RemoveMe_CLIPPING_debug.htm" target="TopicContent">RemoveMe_CLIPPING_debug Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_World__Speed.htm" target="TopicContent">Speed Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_World__Velocity.htm" target="TopicContent">Velocity Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_Player_World__ViewAngles.htm" target="TopicContent">ViewAngles Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ZombieAPI_GameObjects_TeamInfo.htm" target="TopicContent">TeamInfo Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ZombieAPI_GameObjects_TeamInfo.htm" target="TopicContent">TeamInfo Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ZombieAPI_GameObjects_TeamInfo__ctor.htm" target="TopicContent">TeamInfo Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_ZombieAPI_GameObjects_TeamInfo.htm" target="TopicContent">TeamInfo Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ZombieAPI_GameObjects_TeamInfo.htm" target="TopicContent">TeamInfo Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ZombieAPI_GameObjects_TeamInfo.htm" target="TopicContent">TeamInfo Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ZombieAPI_GameObjects_TeamInfo_Team.htm" target="TopicContent">Team Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/N_ZombieAPI.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>
