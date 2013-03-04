@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="67872871-16d2-4df2-9047-9b462fa75c9b" Title="ZombieAPI Namespace" Url="html/N_ZombieAPI.htm">
+  <HelpTOCNode Id="575f46b6-ab75-435f-8c8a-61bcaa2a35be" Title="ZombieAPI Namespace" Url="html/N_ZombieAPI.htm">
     <HelpTOCNode Title="DVarFlag Enumeration" Url="html/T_ZombieAPI_DVarFlag.htm" />
     <HelpTOCNode Title="DVarType Enumeration" Url="html/T_ZombieAPI_DVarType.htm" />
     <HelpTOCNode Title="EntityType Enumeration" Url="html/T_ZombieAPI_EntityType.htm" />
-    <HelpTOCNode Id="1684766e-4c15-46f2-a282-c17af1b508eb" Title="jZmPlugin Interface" Url="html/T_ZombieAPI_jZmPlugin.htm">
+    <HelpTOCNode Id="24379ff8-c426-4cd7-bf55-d1a62f8c2b8e" Title="jZmPlugin Interface" Url="html/T_ZombieAPI_jZmPlugin.htm">
       <HelpTOCNode Title="jZmPlugin Members" Url="html/AllMembers_T_ZombieAPI_jZmPlugin.htm" />
-      <HelpTOCNode Id="bcf41be6-f92b-4a2f-827a-86aec6f3ea4d" Title="jZmPlugin Methods" Url="html/Methods_T_ZombieAPI_jZmPlugin.htm">
+      <HelpTOCNode Id="b3464023-73fe-492b-88a0-f4d45adeda20" Title="jZmPlugin Methods" Url="html/Methods_T_ZombieAPI_jZmPlugin.htm">
         <HelpTOCNode Title="Init Method " Url="html/M_ZombieAPI_jZmPlugin_Init.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="5521e625-3ea2-484e-a263-47841e6443e5" Title="jZmPlugin Properties" Url="html/Properties_T_ZombieAPI_jZmPlugin.htm">
+      <HelpTOCNode Id="5b237818-03f5-4633-9c77-9d9e32343f38" Title="jZmPlugin Properties" Url="html/Properties_T_ZombieAPI_jZmPlugin.htm">
         <HelpTOCNode Title="Author Property " Url="html/P_ZombieAPI_jZmPlugin_Author.htm" />
         <HelpTOCNode Title="Desc Property " Url="html/P_ZombieAPI_jZmPlugin_Desc.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_ZombieAPI_jZmPlugin_Name.htm" />
@@ -20,25 +20,25 @@
     <HelpTOCNode Title="OnCrashHandler Delegate" Url="html/T_ZombieAPI_OnCrashHandler.htm" />
     <HelpTOCNode Title="OnFrameHandler Delegate" Url="html/T_ZombieAPI_OnFrameHandler.htm" />
     <HelpTOCNode Title="OnPluginCrashHandler Delegate" Url="html/T_ZombieAPI_OnPluginCrashHandler.htm" />
-    <HelpTOCNode Id="6e5dc9b0-39de-41d9-96bb-7d0d441e9564" Title="PatternRecognition Class" Url="html/T_ZombieAPI_PatternRecognition.htm">
+    <HelpTOCNode Id="bf3d3bf8-5afa-475c-8fae-fad829d9d436" Title="PatternRecognition Class" Url="html/T_ZombieAPI_PatternRecognition.htm">
       <HelpTOCNode Title="PatternRecognition Members" Url="html/AllMembers_T_ZombieAPI_PatternRecognition.htm" />
       <HelpTOCNode Title="PatternRecognition Constructor " Url="html/M_ZombieAPI_PatternRecognition__ctor.htm" />
-      <HelpTOCNode Id="beb77852-825c-46e5-b379-acaad4f91549" Title="PatternRecognition Methods" Url="html/Methods_T_ZombieAPI_PatternRecognition.htm">
+      <HelpTOCNode Id="1252111f-d23d-44c1-90bc-d506a0ea95c6" Title="PatternRecognition Methods" Url="html/Methods_T_ZombieAPI_PatternRecognition.htm">
         <HelpTOCNode Title="Apply Method " Url="html/M_ZombieAPI_PatternRecognition_Apply.htm" />
         <HelpTOCNode Title="Run Method " Url="html/M_ZombieAPI_PatternRecognition_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="Perks Enumeration" Url="html/T_ZombieAPI_Perks.htm" />
-    <HelpTOCNode Id="de17f795-5465-42f0-a86a-f4233dbf03c6" Title="RemoteMemory Class" Url="html/T_ZombieAPI_RemoteMemory.htm">
+    <HelpTOCNode Id="794d0858-7ebe-45ef-ab68-bd16d6553697" Title="RemoteMemory Class" Url="html/T_ZombieAPI_RemoteMemory.htm">
       <HelpTOCNode Title="RemoteMemory Members" Url="html/AllMembers_T_ZombieAPI_RemoteMemory.htm" />
       <HelpTOCNode Title="RemoteMemory Constructor " Url="html/M_ZombieAPI_RemoteMemory__ctor.htm" />
-      <HelpTOCNode Id="15021bdb-48ec-4b68-9e7d-874e80ad98bb" Title="RemoteMemory Methods" Url="html/Methods_T_ZombieAPI_RemoteMemory.htm">
+      <HelpTOCNode Id="0e036527-7ea9-48d6-9b36-448550d2aa3e" Title="RemoteMemory Methods" Url="html/Methods_T_ZombieAPI_RemoteMemory.htm">
         <HelpTOCNode Title="Move Method " Url="html/M_ZombieAPI_RemoteMemory_Move.htm" />
         <HelpTOCNode Title="ReadFloat Method " Url="html/M_ZombieAPI_RemoteMemory_ReadFloat.htm" />
         <HelpTOCNode Title="ReadInt16 Method " Url="html/M_ZombieAPI_RemoteMemory_ReadInt16.htm" />
         <HelpTOCNode Title="ReadInt32 Method " Url="html/M_ZombieAPI_RemoteMemory_ReadInt32.htm" />
         <HelpTOCNode Title="ReadInt64 Method " Url="html/M_ZombieAPI_RemoteMemory_ReadInt64.htm" />
-        <HelpTOCNode Id="e7859e5c-1b41-4de0-97f5-57ee28b1b985" Title="ReadString Method " Url="html/Overload_ZombieAPI_RemoteMemory_ReadString.htm">
+        <HelpTOCNode Id="f8633ee9-3225-4142-89ed-048efccf1c74" Title="ReadString Method " Url="html/Overload_ZombieAPI_RemoteMemory_ReadString.htm">
           <HelpTOCNode Title="ReadString Method " Url="html/M_ZombieAPI_RemoteMemory_ReadString.htm" />
           <HelpTOCNode Title="ReadString Method (Int32)" Url="html/M_ZombieAPI_RemoteMemory_ReadString_1.htm" />
         </HelpTOCNode>
@@ -47,7 +47,7 @@
         <HelpTOCNode Title="ReadVec2 Method " Url="html/M_ZombieAPI_RemoteMemory_ReadVec2.htm" />
         <HelpTOCNode Title="ReadVec3 Method " Url="html/M_ZombieAPI_RemoteMemory_ReadVec3.htm" />
         <HelpTOCNode Title="ReadVec4 Method " Url="html/M_ZombieAPI_RemoteMemory_ReadVec4.htm" />
-        <HelpTOCNode Id="30465a44-5e85-4761-b734-1a558a037dc1" Title="Write Method " Url="html/Overload_ZombieAPI_RemoteMemory_Write.htm">
+        <HelpTOCNode Id="45730af1-8190-46b7-a7e2-5196b265bb5c" Title="Write Method " Url="html/Overload_ZombieAPI_RemoteMemory_Write.htm">
           <HelpTOCNode Title="Write Method (Boolean)" Url="html/M_ZombieAPI_RemoteMemory_Write.htm" />
           <HelpTOCNode Title="Write Method (Char)" Url="html/M_ZombieAPI_RemoteMemory_Write_1.htm" />
           <HelpTOCNode Title="Write Method (Char[])" Url="html/M_ZombieAPI_RemoteMemory_Write_2.htm" />
@@ -64,7 +64,7 @@
           <HelpTOCNode Title="Write Method (UInt64)" Url="html/M_ZombieAPI_RemoteMemory_Write_14.htm" />
           <HelpTOCNode Title="Write Method (String, Object, Object)" Url="html/M_ZombieAPI_RemoteMemory_Write_12.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="478dba35-3ef7-4858-be1c-724d3f5f3d2a" Title="WriteLine Method " Url="html/Overload_ZombieAPI_RemoteMemory_WriteLine.htm">
+        <HelpTOCNode Id="c800608e-0fa5-4c0e-9b28-2db7a0ae10e6" Title="WriteLine Method " Url="html/Overload_ZombieAPI_RemoteMemory_WriteLine.htm">
           <HelpTOCNode Title="WriteLine Method " Url="html/M_ZombieAPI_RemoteMemory_WriteLine.htm" />
           <HelpTOCNode Title="WriteLine Method (Boolean)" Url="html/M_ZombieAPI_RemoteMemory_WriteLine_1.htm" />
           <HelpTOCNode Title="WriteLine Method (Char)" Url="html/M_ZombieAPI_RemoteMemory_WriteLine_2.htm" />
@@ -83,7 +83,7 @@
           <HelpTOCNode Title="WriteLine Method (String, Object, Object, Object)" Url="html/M_ZombieAPI_RemoteMemory_WriteLine_12.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="6b4830c3-8ee4-415f-9290-881f36668426" Title="RemoteMemory Properties" Url="html/Properties_T_ZombieAPI_RemoteMemory.htm">
+      <HelpTOCNode Id="e81f86d0-5a5a-41a4-9653-47953e1b5150" Title="RemoteMemory Properties" Url="html/Properties_T_ZombieAPI_RemoteMemory.htm">
         <HelpTOCNode Title="Debug Property " Url="html/P_ZombieAPI_RemoteMemory_Debug.htm" />
         <HelpTOCNode Title="Encoding Property " Url="html/P_ZombieAPI_RemoteMemory_Encoding.htm" />
         <HelpTOCNode Title="Position Property " Url="html/P_ZombieAPI_RemoteMemory_Position.htm" />
@@ -93,26 +93,26 @@
     </HelpTOCNode>
     <HelpTOCNode Title="RemoteMemory.ProcessAccess Enumeration" Url="html/T_ZombieAPI_RemoteMemory_ProcessAccess.htm" />
     <HelpTOCNode Title="RemoteMemory.Protection Enumeration" Url="html/T_ZombieAPI_RemoteMemory_Protection.htm" />
-    <HelpTOCNode Id="be7214c5-82df-44a0-bf55-bdaf3567cb05" Title="RemoteObject Class" Url="html/T_ZombieAPI_RemoteObject.htm">
+    <HelpTOCNode Id="9b214d09-2476-4a03-a4c0-92f66279da09" Title="RemoteObject Class" Url="html/T_ZombieAPI_RemoteObject.htm">
       <HelpTOCNode Title="RemoteObject Members" Url="html/AllMembers_T_ZombieAPI_RemoteObject.htm" />
       <HelpTOCNode Title="RemoteObject Constructor " Url="html/M_ZombieAPI_RemoteObject__ctor.htm" />
       <HelpTOCNode Title="RemoteObject Methods" Url="html/Methods_T_ZombieAPI_RemoteObject.htm" />
-      <HelpTOCNode Id="3cc22ffb-f31d-44c5-8fb2-8b141694a88f" Title="RemoteObject Properties" Url="html/Properties_T_ZombieAPI_RemoteObject.htm">
+      <HelpTOCNode Id="4325cdee-2600-4418-8583-c3d779e4e175" Title="RemoteObject Properties" Url="html/Properties_T_ZombieAPI_RemoteObject.htm">
         <HelpTOCNode Title="State Property " Url="html/P_ZombieAPI_RemoteObject_State.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="Stances Enumeration" Url="html/T_ZombieAPI_Stances.htm" />
     <HelpTOCNode Title="Team Enumeration" Url="html/T_ZombieAPI_Team.htm" />
     <HelpTOCNode Title="WriteHandler Delegate" Url="html/T_ZombieAPI_WriteHandler.htm" />
-    <HelpTOCNode Id="8954ffcf-5797-416c-afc8-b09fc5e6ab8c" Title="ZombieAPI Class" Url="html/T_ZombieAPI_ZombieAPI.htm">
+    <HelpTOCNode Id="cb4f9992-96c9-47e7-a0e8-3063749015bd" Title="ZombieAPI Class" Url="html/T_ZombieAPI_ZombieAPI.htm">
       <HelpTOCNode Title="ZombieAPI Members" Url="html/AllMembers_T_ZombieAPI_ZombieAPI.htm" />
       <HelpTOCNode Title="ZombieAPI Constructor " Url="html/M_ZombieAPI_ZombieAPI__ctor.htm" />
-      <HelpTOCNode Id="acb8e153-367f-44da-8b25-3f9a1f542d0a" Title="ZombieAPI Fields" Url="html/Fields_T_ZombieAPI_ZombieAPI.htm">
+      <HelpTOCNode Id="e9af9375-fa34-4f81-a4a5-663cb4f66665" Title="ZombieAPI Fields" Url="html/Fields_T_ZombieAPI_ZombieAPI.htm">
         <HelpTOCNode Title="BaseProcess Field" Url="html/F_ZombieAPI_ZombieAPI_BaseProcess.htm" />
         <HelpTOCNode Title="Plugins Field" Url="html/F_ZombieAPI_ZombieAPI_Plugins.htm" />
         <HelpTOCNode Title="Version Field" Url="html/F_ZombieAPI_ZombieAPI_Version.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="9640055f-15dc-4153-a701-d17fd8478f71" Title="ZombieAPI Methods" Url="html/Methods_T_ZombieAPI_ZombieAPI.htm">
+      <HelpTOCNode Id="e9af5574-0b97-47f1-83b9-0254a256cc93" Title="ZombieAPI Methods" Url="html/Methods_T_ZombieAPI_ZombieAPI.htm">
         <HelpTOCNode Title="Bootstrap Method " Url="html/M_ZombieAPI_ZombieAPI_Bootstrap.htm" />
         <HelpTOCNode Title="Crash Method " Url="html/M_ZombieAPI_ZombieAPI_Crash.htm" />
         <HelpTOCNode Title="GetActors Method " Url="html/M_ZombieAPI_ZombieAPI_GetActors.htm" />
@@ -123,17 +123,17 @@
         <HelpTOCNode Title="GetPlayers Method " Url="html/M_ZombieAPI_ZombieAPI_GetPlayers.htm" />
         <HelpTOCNode Title="GetScriptMovers Method " Url="html/M_ZombieAPI_ZombieAPI_GetScriptMovers.htm" />
         <HelpTOCNode Title="Write Method " Url="html/M_ZombieAPI_ZombieAPI_Write.htm" />
-        <HelpTOCNode Id="d481835c-d42f-4381-9d9e-f21294eff2a8" Title="WriteLine Method " Url="html/Overload_ZombieAPI_ZombieAPI_WriteLine.htm">
+        <HelpTOCNode Id="05b07f9f-634d-4265-b7bf-42caaa0f4ce5" Title="WriteLine Method " Url="html/Overload_ZombieAPI_ZombieAPI_WriteLine.htm">
           <HelpTOCNode Title="WriteLine Method (String)" Url="html/M_ZombieAPI_ZombieAPI_WriteLine.htm" />
           <HelpTOCNode Title="WriteLine Method (String, Boolean)" Url="html/M_ZombieAPI_ZombieAPI_WriteLine_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="baee7c8d-6473-48a9-8153-38a3cafe13ca" Title="ZombieAPI Properties" Url="html/Properties_T_ZombieAPI_ZombieAPI.htm">
+      <HelpTOCNode Id="02eed217-acab-483d-aebb-1615658580ce" Title="ZombieAPI Properties" Url="html/Properties_T_ZombieAPI_ZombieAPI.htm">
         <HelpTOCNode Title="Entities Property " Url="html/P_ZombieAPI_ZombieAPI_Entities.htm" />
         <HelpTOCNode Title="Header Property " Url="html/P_ZombieAPI_ZombieAPI_Header.htm" />
         <HelpTOCNode Title="Weapons Property " Url="html/P_ZombieAPI_ZombieAPI_Weapons.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="431dba8f-ca4c-49c3-9172-ed93b2e78300" Title="ZombieAPI Events" Url="html/Events_T_ZombieAPI_ZombieAPI.htm">
+      <HelpTOCNode Id="56c14c1b-d189-403a-90f5-7738ce952eba" Title="ZombieAPI Events" Url="html/Events_T_ZombieAPI_ZombieAPI.htm">
         <HelpTOCNode Title="OnCrash Event" Url="html/E_ZombieAPI_ZombieAPI_OnCrash.htm" />
         <HelpTOCNode Title="OnDebugWrite Event" Url="html/E_ZombieAPI_ZombieAPI_OnDebugWrite.htm" />
         <HelpTOCNode Title="OnFrame Event" Url="html/E_ZombieAPI_ZombieAPI_OnFrame.htm" />
@@ -144,26 +144,26 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="3038f8ef-417c-46c8-b9d9-f25439765677" Title="ZombieAPI.GameObjects Namespace" Url="html/N_ZombieAPI_GameObjects.htm">
-    <HelpTOCNode Id="cff07aff-5c6f-4c04-96e2-88ce92d68fd0" Title="DVar Class" Url="html/T_ZombieAPI_GameObjects_DVar.htm">
+  <HelpTOCNode Id="6e71f8e0-cac3-4118-ab4b-00a4ce0f1e96" Title="ZombieAPI.GameObjects Namespace" Url="html/N_ZombieAPI_GameObjects.htm">
+    <HelpTOCNode Id="c7c2d8cf-5e50-4392-bee2-8ffa660296db" Title="DVar Class" Url="html/T_ZombieAPI_GameObjects_DVar.htm">
       <HelpTOCNode Title="DVar Members" Url="html/AllMembers_T_ZombieAPI_GameObjects_DVar.htm" />
       <HelpTOCNode Title="DVar Constructor " Url="html/M_ZombieAPI_GameObjects_DVar__ctor.htm" />
-      <HelpTOCNode Id="08357f0e-be06-40b1-bb7c-6042341ab4e0" Title="DVar Fields" Url="html/Fields_T_ZombieAPI_GameObjects_DVar.htm">
+      <HelpTOCNode Id="bf540952-861c-4dc0-82b4-b98721d2d61e" Title="DVar Fields" Url="html/Fields_T_ZombieAPI_GameObjects_DVar.htm">
         <HelpTOCNode Title="Value Field" Url="html/F_ZombieAPI_GameObjects_DVar_Value.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="DVar Methods" Url="html/Methods_T_ZombieAPI_GameObjects_DVar.htm" />
-      <HelpTOCNode Id="1d831e82-508f-451d-b36a-95cc566e8670" Title="DVar Properties" Url="html/Properties_T_ZombieAPI_GameObjects_DVar.htm">
+      <HelpTOCNode Id="c6f662a7-05af-4774-bbf2-1fdee6f06dcb" Title="DVar Properties" Url="html/Properties_T_ZombieAPI_GameObjects_DVar.htm">
         <HelpTOCNode Title="Desc Property " Url="html/P_ZombieAPI_GameObjects_DVar_Desc.htm" />
         <HelpTOCNode Title="Flag Property " Url="html/P_ZombieAPI_GameObjects_DVar_Flag.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_ZombieAPI_GameObjects_DVar_Name.htm" />
         <HelpTOCNode Title="Type Property " Url="html/P_ZombieAPI_GameObjects_DVar_Type.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="cdf969f3-186b-468d-bedb-6798bf1a33a6" Title="DVar.DVarValue Class" Url="html/T_ZombieAPI_GameObjects_DVar_DVarValue.htm">
+    <HelpTOCNode Id="c0cc958d-00e6-43f8-b0f5-7e29f6549ad4" Title="DVar.DVarValue Class" Url="html/T_ZombieAPI_GameObjects_DVar_DVarValue.htm">
       <HelpTOCNode Title="DVar.DVarValue Members" Url="html/AllMembers_T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
       <HelpTOCNode Title="DVar.DVarValue Constructor " Url="html/M_ZombieAPI_GameObjects_DVar_DVarValue__ctor.htm" />
       <HelpTOCNode Title="DVar.DVarValue Methods" Url="html/Methods_T_ZombieAPI_GameObjects_DVar_DVarValue.htm" />
-      <HelpTOCNode Id="97117479-c3da-4ad7-be0d-2761f2ad87aa" Title="DVar.DVarValue Properties" Url="html/Properties_T_ZombieAPI_GameObjects_DVar_DVarValue.htm">
+      <HelpTOCNode Id="135fab18-c1a5-4540-a72b-28276aaeef2b" Title="DVar.DVarValue Properties" Url="html/Properties_T_ZombieAPI_GameObjects_DVar_DVarValue.htm">
         <HelpTOCNode Title="Boolean Property " Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Boolean.htm" />
         <HelpTOCNode Title="Float Property " Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Float.htm" />
         <HelpTOCNode Title="Int Property " Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Int.htm" />
@@ -173,15 +173,15 @@
         <HelpTOCNode Title="Vector Property " Url="html/P_ZombieAPI_GameObjects_DVar_DVarValue_Vector.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="00f8ecd9-1d64-4d4c-9fdd-0513357d4aba" Title="GEntity Class" Url="html/T_ZombieAPI_GameObjects_GEntity.htm">
+    <HelpTOCNode Id="f121358f-26ae-4c11-8f2c-89f2239d6f0a" Title="GEntity Class" Url="html/T_ZombieAPI_GameObjects_GEntity.htm">
       <HelpTOCNode Title="GEntity Members" Url="html/AllMembers_T_ZombieAPI_GameObjects_GEntity.htm" />
       <HelpTOCNode Title="GEntity Constructor " Url="html/M_ZombieAPI_GameObjects_GEntity__ctor.htm" />
-      <HelpTOCNode Id="937b7c1f-1088-4c12-aff2-4abf8c41abcd" Title="GEntity Fields" Url="html/Fields_T_ZombieAPI_GameObjects_GEntity.htm">
+      <HelpTOCNode Id="b0734592-f525-4587-b583-4d4062cdf0bb" Title="GEntity Fields" Url="html/Fields_T_ZombieAPI_GameObjects_GEntity.htm">
         <HelpTOCNode Title="a_Health Field" Url="html/F_ZombieAPI_GameObjects_GEntity_a_Health.htm" />
         <HelpTOCNode Title="a_ModelIndex Field" Url="html/F_ZombieAPI_GameObjects_GEntity_a_ModelIndex.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GEntity Methods" Url="html/Methods_T_ZombieAPI_GameObjects_GEntity.htm" />
-      <HelpTOCNode Id="21d61684-06eb-4781-9ae7-2c3691766ec5" Title="GEntity Properties" Url="html/Properties_T_ZombieAPI_GameObjects_GEntity.htm">
+      <HelpTOCNode Id="b989db24-8448-4d0a-b1b7-eea6d3ea5709" Title="GEntity Properties" Url="html/Properties_T_ZombieAPI_GameObjects_GEntity.htm">
         <HelpTOCNode Title="Angles Property " Url="html/P_ZombieAPI_GameObjects_GEntity_Angles.htm" />
         <HelpTOCNode Title="ClientNum Property " Url="html/P_ZombieAPI_GameObjects_GEntity_ClientNum.htm" />
         <HelpTOCNode Title="CurrentWeapon Property " Url="html/P_ZombieAPI_GameObjects_GEntity_CurrentWeapon.htm" />
@@ -196,15 +196,15 @@
         <HelpTOCNode Title="Type Property " Url="html/P_ZombieAPI_GameObjects_GEntity_Type.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="4f64b353-17e3-445b-9fd6-6adcc688daae" Title="Player Class" Url="html/T_ZombieAPI_GameObjects_Player.htm">
+    <HelpTOCNode Id="0092fc41-57bd-45ea-ba3a-23ea6de69377" Title="Player Class" Url="html/T_ZombieAPI_GameObjects_Player.htm">
       <HelpTOCNode Title="Player Members" Url="html/AllMembers_T_ZombieAPI_GameObjects_Player.htm" />
       <HelpTOCNode Title="Player Constructor " Url="html/M_ZombieAPI_GameObjects_Player__ctor.htm" />
-      <HelpTOCNode Id="5e15a40d-5ad1-4de0-b681-c891dc92d020" Title="Player Fields" Url="html/Fields_T_ZombieAPI_GameObjects_Player.htm">
+      <HelpTOCNode Id="1b8e5369-b178-43b8-9a4e-5363805862f2" Title="Player Fields" Url="html/Fields_T_ZombieAPI_GameObjects_Player.htm">
         <HelpTOCNode Title="Stats Field" Url="html/F_ZombieAPI_GameObjects_Player_Stats.htm" />
         <HelpTOCNode Title="Weapons Field" Url="html/F_ZombieAPI_GameObjects_Player_Weapons.htm" />
         <HelpTOCNode Title="World Field" Url="html/F_ZombieAPI_GameObjects_Player_World.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ea41f275-ce68-494c-987d-98a7d71d177d" Title="Player Methods" Url="html/Methods_T_ZombieAPI_GameObjects_Player.htm">
+      <HelpTOCNode Id="cb266934-b7ce-462a-8d5c-6aeadcc18377" Title="Player Methods" Url="html/Methods_T_ZombieAPI_GameObjects_Player.htm">
         <HelpTOCNode Title="CustomSVCMD Method " Url="html/M_ZombieAPI_GameObjects_Player_CustomSVCMD.htm" />
         <HelpTOCNode Title="Electrocute Method " Url="html/M_ZombieAPI_GameObjects_Player_Electrocute.htm" />
         <HelpTOCNode Title="Ignite Method " Url="html/M_ZombieAPI_GameObjects_Player_Ignite.htm" />
@@ -214,7 +214,7 @@
         <HelpTOCNode Title="SetClientDVar Method " Url="html/M_ZombieAPI_GameObjects_Player_SetClientDVar.htm" />
         <HelpTOCNode Title="Tell Method " Url="html/M_ZombieAPI_GameObjects_Player_Tell.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="b282820f-9e3c-48a5-97d5-17f3b85515b8" Title="Player Properties" Url="html/Properties_T_ZombieAPI_GameObjects_Player.htm">
+      <HelpTOCNode Id="c06f943f-11f5-4afc-bfd4-d1554ce39b5c" Title="Player Properties" Url="html/Properties_T_ZombieAPI_GameObjects_Player.htm">
         <HelpTOCNode Title="ClientNum Property " Url="html/P_ZombieAPI_GameObjects_Player_ClientNum.htm" />
         <HelpTOCNode Title="Health Property " Url="html/P_ZombieAPI_GameObjects_Player_Health.htm" />
         <HelpTOCNode Title="isAlive Property " Url="html/P_ZombieAPI_GameObjects_Player_isAlive.htm" />
@@ -227,11 +227,11 @@
         <HelpTOCNode Title="XUID Property " Url="html/P_ZombieAPI_GameObjects_Player_XUID.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5043f169-498f-45c7-9083-71e432d48e6a" Title="Player.Stats_ Class" Url="html/T_ZombieAPI_GameObjects_Player_Stats_.htm">
+    <HelpTOCNode Id="f7f7c932-a03e-4001-bc25-421c0cd216fb" Title="Player.Stats_ Class" Url="html/T_ZombieAPI_GameObjects_Player_Stats_.htm">
       <HelpTOCNode Title="Player.Stats_ Members" Url="html/AllMembers_T_ZombieAPI_GameObjects_Player_Stats_.htm" />
       <HelpTOCNode Title="Player.Stats_ Constructor " Url="html/M_ZombieAPI_GameObjects_Player_Stats___ctor.htm" />
       <HelpTOCNode Title="Player.Stats_ Methods" Url="html/Methods_T_ZombieAPI_GameObjects_Player_Stats_.htm" />
-      <HelpTOCNode Id="9dcccfc3-1ee8-4626-9cf5-1c289755e2ed" Title="Player.Stats_ Properties" Url="html/Properties_T_ZombieAPI_GameObjects_Player_Stats_.htm">
+      <HelpTOCNode Id="11572ca5-da9e-495a-9dcd-1b6331350446" Title="Player.Stats_ Properties" Url="html/Properties_T_ZombieAPI_GameObjects_Player_Stats_.htm">
         <HelpTOCNode Title="Assists Property " Url="html/P_ZombieAPI_GameObjects_Player_Stats__Assists.htm" />
         <HelpTOCNode Title="Deaths Property " Url="html/P_ZombieAPI_GameObjects_Player_Stats__Deaths.htm" />
         <HelpTOCNode Title="Downs Property " Url="html/P_ZombieAPI_GameObjects_Player_Stats__Downs.htm" />
@@ -242,11 +242,11 @@
         <HelpTOCNode Title="Revives Property " Url="html/P_ZombieAPI_GameObjects_Player_Stats__Revives.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b7586752-b681-4a35-90c3-86fa15904042" Title="Player.Weapons_ Class" Url="html/T_ZombieAPI_GameObjects_Player_Weapons_.htm">
+    <HelpTOCNode Id="d0d32468-c836-4546-b24d-ce3a47ac8f3b" Title="Player.Weapons_ Class" Url="html/T_ZombieAPI_GameObjects_Player_Weapons_.htm">
       <HelpTOCNode Title="Player.Weapons_ Members" Url="html/AllMembers_T_ZombieAPI_GameObjects_Player_Weapons_.htm" />
       <HelpTOCNode Title="Player.Weapons_ Constructor " Url="html/M_ZombieAPI_GameObjects_Player_Weapons___ctor.htm" />
       <HelpTOCNode Title="Player.Weapons_ Methods" Url="html/Methods_T_ZombieAPI_GameObjects_Player_Weapons_.htm" />
-      <HelpTOCNode Id="57ec5ae4-5aff-4fce-bfaa-4bfc8fc3dfd0" Title="Player.Weapons_ Properties" Url="html/Properties_T_ZombieAPI_GameObjects_Player_Weapons_.htm">
+      <HelpTOCNode Id="65840ba6-37ab-4f46-b28a-b282b3b65392" Title="Player.Weapons_ Properties" Url="html/Properties_T_ZombieAPI_GameObjects_Player_Weapons_.htm">
         <HelpTOCNode Title="CurrentWeapon Property " Url="html/P_ZombieAPI_GameObjects_Player_Weapons__CurrentWeapon.htm" />
         <HelpTOCNode Title="LethalAmmo Property " Url="html/P_ZombieAPI_GameObjects_Player_Weapons__LethalAmmo.htm" />
         <HelpTOCNode Title="LethalWeapon Property " Url="html/P_ZombieAPI_GameObjects_Player_Weapons__LethalWeapon.htm" />
@@ -260,11 +260,11 @@
         <HelpTOCNode Title="TacticalWeapon Property " Url="html/P_ZombieAPI_GameObjects_Player_Weapons__TacticalWeapon.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d758c911-49fb-4943-ad34-9eccd7d7e00d" Title="Player.World_ Class" Url="html/T_ZombieAPI_GameObjects_Player_World_.htm">
+    <HelpTOCNode Id="3f2fc626-10e0-4b46-817b-95553bd054d3" Title="Player.World_ Class" Url="html/T_ZombieAPI_GameObjects_Player_World_.htm">
       <HelpTOCNode Title="Player.World_ Members" Url="html/AllMembers_T_ZombieAPI_GameObjects_Player_World_.htm" />
       <HelpTOCNode Title="Player.World_ Constructor " Url="html/M_ZombieAPI_GameObjects_Player_World___ctor.htm" />
       <HelpTOCNode Title="Player.World_ Methods" Url="html/Methods_T_ZombieAPI_GameObjects_Player_World_.htm" />
-      <HelpTOCNode Id="f4b6c7fd-2fb8-4698-a9d7-1c5c1b65f50c" Title="Player.World_ Properties" Url="html/Properties_T_ZombieAPI_GameObjects_Player_World_.htm">
+      <HelpTOCNode Id="dbc6fae4-ec92-4235-a229-287e818678f5" Title="Player.World_ Properties" Url="html/Properties_T_ZombieAPI_GameObjects_Player_World_.htm">
         <HelpTOCNode Title="Freeze Property " Url="html/P_ZombieAPI_GameObjects_Player_World__Freeze.htm" />
         <HelpTOCNode Title="Gravity Property " Url="html/P_ZombieAPI_GameObjects_Player_World__Gravity.htm" />
         <HelpTOCNode Title="Origin Property " Url="html/P_ZombieAPI_GameObjects_Player_World__Origin.htm" />
@@ -274,11 +274,11 @@
         <HelpTOCNode Title="ViewAngles Property " Url="html/P_ZombieAPI_GameObjects_Player_World__ViewAngles.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="233cee07-080a-4820-99a1-3799e458b85e" Title="TeamInfo Class" Url="html/T_ZombieAPI_GameObjects_TeamInfo.htm">
+    <HelpTOCNode Id="47406d9b-b7f4-42c4-baa9-097687ca1a57" Title="TeamInfo Class" Url="html/T_ZombieAPI_GameObjects_TeamInfo.htm">
       <HelpTOCNode Title="TeamInfo Members" Url="html/AllMembers_T_ZombieAPI_GameObjects_TeamInfo.htm" />
       <HelpTOCNode Title="TeamInfo Constructor " Url="html/M_ZombieAPI_GameObjects_TeamInfo__ctor.htm" />
       <HelpTOCNode Title="TeamInfo Methods" Url="html/Methods_T_ZombieAPI_GameObjects_TeamInfo.htm" />
-      <HelpTOCNode Id="018d3a89-576b-4233-b769-91be31d5e154" Title="TeamInfo Properties" Url="html/Properties_T_ZombieAPI_GameObjects_TeamInfo.htm">
+      <HelpTOCNode Id="f45ee860-2f79-4931-b162-b354e4b4214c" Title="TeamInfo Properties" Url="html/Properties_T_ZombieAPI_GameObjects_TeamInfo.htm">
         <HelpTOCNode Title="Team Property " Url="html/P_ZombieAPI_GameObjects_TeamInfo_Team.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
