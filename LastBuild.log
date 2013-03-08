@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="C:\Users\JariZ\Dropbox\C#\ZombieAPI\jZm.shfbproj" started="8-3-2013 11:13:10">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="C:\Users\JariZ\Dropbox\C#\ZombieAPI\jZm.shfbproj" started="8-3-2013 13:04:35">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
@@ -21,15 +21,15 @@ References to include (excluding framework assemblies):
 Copying XML comments files
     C:\Users\JariZ\Dropbox\C#\ZombieAPI\ZombieLib\docs.xml -&gt; C:\Users\JariZ\Dropbox\www\jZmDocs\Working\docs.xml
 SHFB: Warning BE0063: &#39;C:\Users\JariZ\Dropbox\C#\ZombieAPI\ZombieLib\bin\Release\docs.xml&#39; matches a previously copied comments filename.  The duplicate will be copied to a unique name to preserve the comments it contains.
-    C:\Users\JariZ\Dropbox\C#\ZombieAPI\ZombieLib\bin\Release\docs.xml -&gt; C:\Users\JariZ\Dropbox\www\jZmDocs\Working\{7fdf2c2b-1ead-40d6-8e4a-fcba6d48b758}
+    C:\Users\JariZ\Dropbox\C#\ZombieAPI\ZombieLib\bin\Release\docs.xml -&gt; C:\Users\JariZ\Dropbox\www\jZmDocs\Working\{77f6ec0a-2f94-4934-82a7-cc9ff6bea733}
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, Engels (Verenigde Staten))...
-    Last step completed in 00:00:00.2660
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0110
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -37,15 +37,15 @@ Generating reflection information...
   MRefBuilder (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
-  Info: Wrote information on 2 namespaces, 27 types, and 269 members
+  Info: Wrote information on 2 namespaces, 29 types, and 282 members
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:04.8103
+    Last step completed in 00:00:02.9892
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0210
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
@@ -55,7 +55,7 @@ Applying visibility properties to reflection information file
     11 protected members noted for removal
     5 protected inherited framework members noted for removal
     Removing previously noted unwanted APIs and elements
-    Last step completed in 00:00:00.1300
+    Last step completed in 00:00:00.1370
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -67,10 +67,11 @@ Transforming reflection output...
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:02.6722
+    Last step completed in 00:00:02.2501
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
+    Unique name M_ZombieAPI_Portal__ctor_1 generated for M:ZombieAPI.Portal.#ctor(System.Single,System.Single,System.Single,System.Boolean,System.Single[])
     Unique name M_ZombieAPI_RemoteMemory_ReadString_1 generated for M:ZombieAPI.RemoteMemory.ReadString(System.Int32)
     Unique name M_ZombieAPI_RemoteMemory_Write_1 generated for M:ZombieAPI.RemoteMemory.Write(System.Char)
     Unique name M_ZombieAPI_RemoteMemory_Write_2 generated for M:ZombieAPI.RemoteMemory.Write(System.Char[])
@@ -102,7 +103,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_ZombieAPI_RemoteMemory_WriteLine_14 generated for M:ZombieAPI.RemoteMemory.WriteLine(System.UInt32)
     Unique name M_ZombieAPI_RemoteMemory_WriteLine_15 generated for M:ZombieAPI.RemoteMemory.WriteLine(System.UInt64)
     Unique name M_ZombieAPI_ZombieAPI_WriteLine_1 generated for M:ZombieAPI.ZombieAPI.WriteLine(System.String,System.Boolean)
-    Last step completed in 00:00:00.0770
+    Last step completed in 00:00:00.0960
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -494,16 +495,16 @@ C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; C:\Users\J
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> C:\Users\JariZ\Dropbox\www\jZmDocs\Working\branding\ps-instrumentedLink.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> C:\Users\JariZ\Dropbox\www\jZmDocs\Working\branding\ps-languageSpecificText.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> C:\Users\JariZ\Dropbox\www\jZmDocs\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:05.7013
+    Last step completed in 00:00:01.0411
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0270
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -512,17 +513,17 @@ Generating intermediate table of contents file...
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.0921
+    Last step completed in 00:00:00.6170
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1290
+    Last step completed in 00:00:00.0140
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\JariZ\Dropbox\www\jZmDocs\Working\sandcastle.config
-    Last step completed in 00:00:00.2230
+    Last step completed in 00:00:00.0460
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -531,15 +532,17 @@ Building reference help topics...
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loading configuration...
   Info: Processing topics...
-  Info: Processed 240 topics
-    Last step completed in 00:03:37.7715
+  Warn: ResolveReferenceLinksComponent2: [P:ZombieAPI.jZmPlugin.Author] MSDN URL not found for target &#39;T:System.String&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:ZombieAPI.jZmPlugin.Author] MSDN URL not found for target &#39;T:System.String&#39;.
+  Info: Processed 260 topics
+    Last step completed in 00:03:27.1228
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
     Did not delete folder &#39;C:\Users\JariZ\Dropbox\www\jZmDocs\.git&#39; as it contains read-only or hidden folders/files
-    Last step completed in 00:00:06.0153
+    Last step completed in 00:00:00.6150
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -551,29 +554,29 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Users\JariZ\Dropbox\www\jZmDocs\Working\Output\HtmlHelp1
-Processed 240 HTML files
+Processed 260 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Users\JariZ\Dropbox\www\jZmDocs\Working\Documentation.hhk
 Saving HTML Help 1 table of contents to C:\Users\JariZ\Dropbox\www\jZmDocs\Working\Documentation.hhc
 
 Processing website files in C:\Users\JariZ\Dropbox\www\jZmDocs\Working\Output\Website
-Processed 240 HTML files
+Processed 260 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\JariZ\Dropbox\www\jZmDocs\Working\WebKI.xml
 Saving website table of contents to C:\Users\JariZ\Dropbox\www\jZmDocs\Working\WebTOC.xml
-    Last step completed in 00:00:06.8684
+    Last step completed in 00:00:04.5543
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0380
+    Last step completed in 00:00:00.0150
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -588,13 +591,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 0 minutes, 11 seconds
+  Compile time: 0 minutes, 5 seconds
   
-  242	Topics
+  262	Topics
   
-  2,995	Local links
+  3,234	Local links
   
-  1,369	Internet links
+  260	Internet links
   
   0	Graphics
   
@@ -602,20 +605,20 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Users\JariZ\Dropbox\www\jZmDocs\Working\Output\HtmlHelp1\Documentation.chm, 273,832 bytes
+  Created c:\Users\JariZ\Dropbox\www\jZmDocs\Working\Output\HtmlHelp1\Documentation.chm, 288,100 bytes
   
-  Compression decreased file by 2,288,655 bytes.
+  Compression decreased file by 2,351,018 bytes.
   
-    Last step completed in 00:00:27.8026
+    Last step completed in 00:00:07.3874
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:02.6882
+    Last step completed in 00:00:01.8951
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -623,16 +626,16 @@ Copying website files to output folder...
 Copied 100 files
 Copied 200 files
 Copied 300 files
-Copied 339 files for the website content
-    Last step completed in 00:00:03.8222
+Copied 359 files for the website content
+    Last step completed in 00:00:03.5572
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.6710
+    Last step completed in 00:00:00.6170
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 03-08-2013 11:17 .  Total time: 00:04:41,6551
+Build completed successfully at 03-08-2013 01:08 .  Total time: 00:03:53,2163
 
 </buildStep>
 </shfbBuild>
